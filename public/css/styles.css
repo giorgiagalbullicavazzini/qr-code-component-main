@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 320px;
+  height: 497px;
+  background-color: #FFF;
+}
+.card img {
+  width: 100%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #D5E1EF;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=styles.css.map */
