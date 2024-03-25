@@ -4,8 +4,11 @@
     width: 320px;
     height: 497px;
     background-color: colors.$white;
+    border-radius: 20px;
+    padding: 16px;
 
     img {
         width: 100%;
+        border-radius: 20px;
     }
 }

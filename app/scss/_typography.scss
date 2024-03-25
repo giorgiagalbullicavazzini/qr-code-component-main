@@ -1,0 +1,16 @@
+@use 'colors';
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: colors.$dark-navy;
+    margin-top: 24px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: colors.$grey;
+
+    padding: 16px;
+}

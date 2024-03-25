@@ -1,6 +1,7 @@
 @use 'reset';
 @use 'colors';
 @use 'card';
+@use 'typography';
 
 $font: 'Outfit', sans-serif;
 
@@ -16,4 +17,5 @@ body {
 
     font-family: $font;
     font-optical-sizing: auto;
+    text-align: center;
   }
