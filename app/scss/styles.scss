@@ -1,17 +1,19 @@
 @use 'reset';
+@use 'colors';
 @use 'card';
 
-$font-stack: 'Outfit', sans-serif;
+$font: 'Outfit', sans-serif;
 
 body {
-    font-family: $font-stack;
-    font-optical-sizing: auto;
-    font-style: normal;
+    width: 100vw;
+    height: 100vh;
+    background-color: colors.$light-grey;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #D5E1EF;
-    width: 100vw;
-    height: 100vh;
+
+    font-family: $font;
+    font-optical-sizing: auto;
   }

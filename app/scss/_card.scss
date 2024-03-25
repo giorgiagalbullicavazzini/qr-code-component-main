@@ -1,7 +1,9 @@
+@use 'colors';
+
 .card {
     width: 320px;
     height: 497px;
-    background-color: #FFF;
+    background-color: colors.$white;
 
     img {
         width: 100%;
