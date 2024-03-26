@@ -13,17 +13,18 @@
 }
 .card img {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
-h1 {
+.text {
+  padding-top: 16px;
+}
+.text h1 {
   font-size: 22px;
   font-weight: 700;
   color: #1F314F;
-  margin-top: 24px;
 }
-
-p {
+.text p {
   font-size: 15px;
   font-weight: 400;
   color: #7D889E;
